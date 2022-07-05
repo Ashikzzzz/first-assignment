@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+.text{
+    text-align:center;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.help{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: aliceblue;
+}
+.help2{
+    padding-top: 20px;
+}
+#s-letter{
+    margin-top: 10px;
+}
+.first-part{
+   background-image: url(images/donation13.jpg);
+   background-repeat: no-repeat;
+   height: 100vh;   
+   background-size:cover;
+}
+.my-button{
+   margin-left: 600px;
+   margin-top: 10px;
+}
+.donate{
+    padding: 10px 20px;
+    background-image: linear-gradient(tomato,orange);
+    border-radius: 10px;
+}
