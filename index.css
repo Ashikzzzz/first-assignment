@@ -36,7 +36,48 @@ body{
    margin-top: 10px;
 }
 .donate{
-    padding: 10px 20px;
+    padding: 17px 27px;
     background-image: linear-gradient(tomato,orange);
     border-radius: 10px;
+    margin-top: 10px;
+}
+.donate-today{
+    text-align: center;
+    margin-top:30px ;
+    margin-bottom: 10px;
+}
+.donate-text{
+    text-align: center;
+}
+.donate-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+}
+.amount{
+    text-decoration: none;
+   padding: 25px;
+   margin: 0 30px;
+   border: none;
+}
+#amount2{
+    background-color: tomato;
+    border-radius: 5px;
+}
+.line{
+    margin-top: 10px 0;
+    border-bottom: 2px solid gray;
+    width: 50%;
+   margin: auto;
+   margin-top: 15px;
+}
+.amount-text{
+    color: gray;
+    text-align: center;
+    margin-top: 70px;
+}
+footer{
+    background-color: black;
+    padding: 50px 0;
+    margin-top: 20px;
 }
