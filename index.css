@@ -43,11 +43,13 @@ body{
 }
 .donate-today{
     text-align: center;
-    margin-top:30px ;
+    margin-top:50px ;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .donate-text{
     text-align: center;
+
 }
 .donate-button{
     display: flex;
@@ -59,6 +61,7 @@ body{
    padding: 25px;
    margin: 0 30px;
    border: none;
+   border-radius: 5px;
 }
 #amount2{
     background-color: tomato;
@@ -80,4 +83,38 @@ footer{
     background-color: black;
     padding: 50px 0;
     margin-top: 20px;
+}
+.plan{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px ;
+    margin-bottom: 20px;
+}
+.card-part{
+    display: flex;
+    justify-content:center;
+    margin: 50px 40px 0 40px;
+    padding: 0 30px;
+}
+.food{
+    
+    background-color: rgba(223, 240, 235, 0.679);
+    margin: 0 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.foodhead{
+    padding: 10px 0;
+}
+.education{
+    background-color:rgba(245, 215, 215, 0.524);
+    margin: 0 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.shelter{
+    background-color: rgba(186, 165, 136, 0.585);
+    margin: 0 40px;
+    padding: 30px;
+    border-radius: 10px;
 }
